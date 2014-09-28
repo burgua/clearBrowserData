@@ -1,14 +1,14 @@
 ﻿{
-    "name": "clearBrowserData",
-    "version": "0.0.1",
+    "name": "Toolbar button for clear browser data",
+    "version": "0.0.2",
     "manifest_version": 2,
-    "description": "Link for removing browser data",
+    "description": "Toolbar button for opening 'clear browser data' dialog",
     "permissions": [
         "tabs"
     ],
     "browser_action": {
         "default_icon": "icons/clean_48.png",
-        "default_title": "Clear browser data"
+        "default_title": "Open 'clear browser data' dialog"
     },
 	"background": {
 		"scripts": ["scripts.js"]
